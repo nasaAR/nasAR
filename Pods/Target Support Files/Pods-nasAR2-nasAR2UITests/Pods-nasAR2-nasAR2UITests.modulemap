@@ -1,0 +1,6 @@
+framework module Pods_nasAR2_nasAR2UITests {
+  umbrella header "Pods-nasAR2-nasAR2UITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

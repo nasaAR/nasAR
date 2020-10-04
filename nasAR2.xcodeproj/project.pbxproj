@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		128CA844C8BFD6E2862CF7B7 /* Pods_nasAR2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C271261FAE3798321C849A1B /* Pods_nasAR2Tests.framework */; };
+		52360EC4E364ACF3CAC37B3B /* Pods_nasAR2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E64831F8BC339C91FDAE55F /* Pods_nasAR2.framework */; };
+		C45A2449252A5C8D009DCD2E /* ISS_stationary.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C45A2448252A5C8D009DCD2E /* ISS_stationary.usdz */; };
 		C49E44FE25291194002FBAED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49E44FD25291194002FBAED /* AppDelegate.swift */; };
 		C49E450025291194002FBAED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49E44FF25291194002FBAED /* ViewController.swift */; };
 		C49E450225291194002FBAED /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = C49E450125291194002FBAED /* Experience.rcproject */; };
@@ -15,7 +18,7 @@
 		C49E450A25291199002FBAED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C49E450825291199002FBAED /* LaunchScreen.storyboard */; };
 		C49E45152529119A002FBAED /* nasAR2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49E45142529119A002FBAED /* nasAR2Tests.swift */; };
 		C49E45202529119A002FBAED /* nasAR2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49E451F2529119A002FBAED /* nasAR2UITests.swift */; };
-		C49E452E25291EC0002FBAED /* Star.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C49E452D25291EBF002FBAED /* Star.usdz */; };
+		D70648A6FE65755D25686E65 /* Pods_nasAR2_nasAR2UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9DAEF627024033F1678F69B /* Pods_nasAR2_nasAR2UITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		56790CD61F1DB92BDFE00951 /* Pods-nasAR2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nasAR2Tests.debug.xcconfig"; path = "Target Support Files/Pods-nasAR2Tests/Pods-nasAR2Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B12805D6F782A74A1123F3E /* Pods-nasAR2-nasAR2UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nasAR2-nasAR2UITests.release.xcconfig"; path = "Target Support Files/Pods-nasAR2-nasAR2UITests/Pods-nasAR2-nasAR2UITests.release.xcconfig"; sourceTree = "<group>"; };
+		8E64831F8BC339C91FDAE55F /* Pods_nasAR2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nasAR2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B445BE2016735C8977A6215F /* Pods-nasAR2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nasAR2.release.xcconfig"; path = "Target Support Files/Pods-nasAR2/Pods-nasAR2.release.xcconfig"; sourceTree = "<group>"; };
+		C271261FAE3798321C849A1B /* Pods_nasAR2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nasAR2Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C45A2448252A5C8D009DCD2E /* ISS_stationary.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = ISS_stationary.usdz; path = ../../../Downloads/ISS_stationary.usdz; sourceTree = "<group>"; };
 		C49E44FA25291194002FBAED /* nasAR2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nasAR2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C49E44FD25291194002FBAED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C49E44FF25291194002FBAED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,7 +59,10 @@
 		C49E451B2529119A002FBAED /* nasAR2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nasAR2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C49E451F2529119A002FBAED /* nasAR2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nasAR2UITests.swift; sourceTree = "<group>"; };
 		C49E45212529119A002FBAED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C49E452D25291EBF002FBAED /* Star.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = Star.usdz; path = ../../Star.usdz; sourceTree = "<group>"; };
+		C9DAEF627024033F1678F69B /* Pods_nasAR2_nasAR2UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_nasAR2_nasAR2UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4D6975B405D6AF0CBDA22E6 /* Pods-nasAR2-nasAR2UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nasAR2-nasAR2UITests.debug.xcconfig"; path = "Target Support Files/Pods-nasAR2-nasAR2UITests/Pods-nasAR2-nasAR2UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D63F54A78922DE8804746234 /* Pods-nasAR2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nasAR2Tests.release.xcconfig"; path = "Target Support Files/Pods-nasAR2Tests/Pods-nasAR2Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E23C51807806A6BF3D42BB21 /* Pods-nasAR2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nasAR2.debug.xcconfig"; path = "Target Support Files/Pods-nasAR2/Pods-nasAR2.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52360EC4E364ACF3CAC37B3B /* Pods_nasAR2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				128CA844C8BFD6E2862CF7B7 /* Pods_nasAR2Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +86,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D70648A6FE65755D25686E65 /* Pods_nasAR2_nasAR2UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04212408171A9A25C86AC2E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E64831F8BC339C91FDAE55F /* Pods_nasAR2.framework */,
+				C9DAEF627024033F1678F69B /* Pods_nasAR2_nasAR2UITests.framework */,
+				C271261FAE3798321C849A1B /* Pods_nasAR2Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		94172603778B6DF0DEB6F070 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E23C51807806A6BF3D42BB21 /* Pods-nasAR2.debug.xcconfig */,
+				B445BE2016735C8977A6215F /* Pods-nasAR2.release.xcconfig */,
+				D4D6975B405D6AF0CBDA22E6 /* Pods-nasAR2-nasAR2UITests.debug.xcconfig */,
+				7B12805D6F782A74A1123F3E /* Pods-nasAR2-nasAR2UITests.release.xcconfig */,
+				56790CD61F1DB92BDFE00951 /* Pods-nasAR2Tests.debug.xcconfig */,
+				D63F54A78922DE8804746234 /* Pods-nasAR2Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C49E44F125291193002FBAED = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +123,8 @@
 				C49E45132529119A002FBAED /* nasAR2Tests */,
 				C49E451E2529119A002FBAED /* nasAR2UITests */,
 				C49E44FB25291194002FBAED /* Products */,
+				94172603778B6DF0DEB6F070 /* Pods */,
+				04212408171A9A25C86AC2E4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,8 +142,8 @@
 			isa = PBXGroup;
 			children = (
 				C49E44FD25291194002FBAED /* AppDelegate.swift */,
+				C45A2448252A5C8D009DCD2E /* ISS_stationary.usdz */,
 				C49E44FF25291194002FBAED /* ViewController.swift */,
-				C49E452D25291EBF002FBAED /* Star.usdz */,
 				C49E450125291194002FBAED /* Experience.rcproject */,
 				C49E450325291194002FBAED /* Main.storyboard */,
 				C49E450625291199002FBAED /* Assets.xcassets */,
@@ -138,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C49E45242529119A002FBAED /* Build configuration list for PBXNativeTarget "nasAR2" */;
 			buildPhases = (
+				394CC808CF5BF3ECC3277892 /* [CP] Check Pods Manifest.lock */,
 				C49E44F625291194002FBAED /* Sources */,
 				C49E44F725291194002FBAED /* Frameworks */,
 				C49E44F825291194002FBAED /* Resources */,
+				A5901ED48EF85E67CB0CFF2C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,6 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C49E45272529119A002FBAED /* Build configuration list for PBXNativeTarget "nasAR2Tests" */;
 			buildPhases = (
+				C48C7B9E20008BD1E3988BE2 /* [CP] Check Pods Manifest.lock */,
 				C49E450C2529119A002FBAED /* Sources */,
 				C49E450D2529119A002FBAED /* Frameworks */,
 				C49E450E2529119A002FBAED /* Resources */,
@@ -173,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C49E452A2529119A002FBAED /* Build configuration list for PBXNativeTarget "nasAR2UITests" */;
 			buildPhases = (
+				56514B4ACA269DB2B6976B94 /* [CP] Check Pods Manifest.lock */,
 				C49E45172529119A002FBAED /* Sources */,
 				C49E45182529119A002FBAED /* Frameworks */,
 				C49E45192529119A002FBAED /* Resources */,
+				7AE9808624AD67432039F140 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -238,7 +283,7 @@
 				C49E450A25291199002FBAED /* LaunchScreen.storyboard in Resources */,
 				C49E450725291199002FBAED /* Assets.xcassets in Resources */,
 				C49E450525291194002FBAED /* Main.storyboard in Resources */,
-				C49E452E25291EC0002FBAED /* Star.usdz in Resources */,
+				C45A2449252A5C8D009DCD2E /* ISS_stationary.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +302,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		394CC808CF5BF3ECC3277892 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-nasAR2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56514B4ACA269DB2B6976B94 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-nasAR2-nasAR2UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7AE9808624AD67432039F140 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nasAR2-nasAR2UITests/Pods-nasAR2-nasAR2UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nasAR2-nasAR2UITests/Pods-nasAR2-nasAR2UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-nasAR2-nasAR2UITests/Pods-nasAR2-nasAR2UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5901ED48EF85E67CB0CFF2C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nasAR2/Pods-nasAR2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-nasAR2/Pods-nasAR2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-nasAR2/Pods-nasAR2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C48C7B9E20008BD1E3988BE2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-nasAR2Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C49E44F625291194002FBAED /* Sources */ = {
@@ -436,6 +584,7 @@
 		};
 		C49E45252529119A002FBAED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E23C51807806A6BF3D42BB21 /* Pods-nasAR2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -454,6 +603,7 @@
 		};
 		C49E45262529119A002FBAED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B445BE2016735C8977A6215F /* Pods-nasAR2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -472,6 +622,7 @@
 		};
 		C49E45282529119A002FBAED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56790CD61F1DB92BDFE00951 /* Pods-nasAR2Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -494,6 +645,7 @@
 		};
 		C49E45292529119A002FBAED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D63F54A78922DE8804746234 /* Pods-nasAR2Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +668,7 @@
 		};
 		C49E452B2529119A002FBAED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4D6975B405D6AF0CBDA22E6 /* Pods-nasAR2-nasAR2UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -536,6 +689,7 @@
 		};
 		C49E452C2529119A002FBAED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B12805D6F782A74A1123F3E /* Pods-nasAR2-nasAR2UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
