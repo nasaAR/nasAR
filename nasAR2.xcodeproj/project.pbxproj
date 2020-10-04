@@ -15,6 +15,7 @@
 		C49E450A25291199002FBAED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C49E450825291199002FBAED /* LaunchScreen.storyboard */; };
 		C49E45152529119A002FBAED /* nasAR2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49E45142529119A002FBAED /* nasAR2Tests.swift */; };
 		C49E45202529119A002FBAED /* nasAR2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C49E451F2529119A002FBAED /* nasAR2UITests.swift */; };
+		C49E452E25291EC0002FBAED /* Star.usdz in Resources */ = {isa = PBXBuildFile; fileRef = C49E452D25291EBF002FBAED /* Star.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		C49E451B2529119A002FBAED /* nasAR2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = nasAR2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C49E451F2529119A002FBAED /* nasAR2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nasAR2UITests.swift; sourceTree = "<group>"; };
 		C49E45212529119A002FBAED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C49E452D25291EBF002FBAED /* Star.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; name = Star.usdz; path = ../../Star.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				C49E44FD25291194002FBAED /* AppDelegate.swift */,
 				C49E44FF25291194002FBAED /* ViewController.swift */,
+				C49E452D25291EBF002FBAED /* Star.usdz */,
 				C49E450125291194002FBAED /* Experience.rcproject */,
 				C49E450325291194002FBAED /* Main.storyboard */,
 				C49E450625291199002FBAED /* Assets.xcassets */,
@@ -235,6 +238,7 @@
 				C49E450A25291199002FBAED /* LaunchScreen.storyboard in Resources */,
 				C49E450725291199002FBAED /* Assets.xcassets in Resources */,
 				C49E450525291194002FBAED /* Main.storyboard in Resources */,
+				C49E452E25291EC0002FBAED /* Star.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
